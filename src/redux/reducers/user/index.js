@@ -1,7 +1,7 @@
 import initialState from "../../store/user";
 
-import loginReducer from "./loginReducer";
-import logoutReducer from "./logoutReducer";
+import loginReducer from "./LoginReducer";
+import logoutReducer from "./LogoutReducer";
 
 export default (state = initialState, action) => {
   const login = loginReducer(state, action);

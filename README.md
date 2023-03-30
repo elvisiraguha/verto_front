@@ -1,19 +1,19 @@
-# Ampersand Battery Swap Network (Web)
+# Drivers Monitoring and Management Application
 
-This is the web application for ampersand network & batter swapping mechanism
+This is the web application 
 
 ## Setup locally
 
 `clone this repository`
 
 ```
-git clone https://github.com/elvisiraguha/swap-mechanizm-web.git
+git clone https://github.com/elvisiraguha/verto_front.git
 ```
 
 `checkout into the repository folder`
 
 ```
-cd swap-mechanizm
+cd verto_front
 ```
 
 `install dependencies`
@@ -22,7 +22,7 @@ cd swap-mechanizm
 npm install
 ```
 
-Make sure the APIs backend server for this app is running, instructions on how to run it locally can be found [here](https://github.com/elvisiraguha/swap-mechanizm)
+Make sure the APIs backend server for this app is running, instructions on how to run it locally can be found [here](https://github.com/elvisiraguha/verto_back.git)
 
 `start the application`
 
