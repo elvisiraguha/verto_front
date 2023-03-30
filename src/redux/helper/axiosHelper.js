@@ -1,9 +1,9 @@
 import "dotenv/config";
 import axios from "axios";
 
-const { NODE_ENV, REACT_APP_SWAP_BACKEND } = process.env;
+const { NODE_ENV, REACT_APP_VERTO_BACKEND } = process.env;
 
-const backendUrl = REACT_APP_SWAP_BACKEND;
+const backendUrl = REACT_APP_VERTO_BACKEND;
 
 export default (data = {}) => {
   const { headers } = data;
