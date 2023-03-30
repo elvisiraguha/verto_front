@@ -3,7 +3,6 @@ import { Navigate } from "react-router-dom";
 import { Form, Input, Button, Alert } from "antd";
 import { connect } from "react-redux";
 import { login } from "../redux/actions/user";
-import Home from "./Home";
 
 import "./landing.css";
 

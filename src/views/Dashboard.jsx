@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { connect } from "react-redux";
 
 const Dashboard = ({ routes, activePage }) => {
   return (
     <div>
       {routes.map((route, i) => {
-        if (route.menuKey != activePage) {
+        if (route.menuKey !== activePage) {
           return <div key={i} />;
         } else {
           return <div key={i}>{route.component}</div>;

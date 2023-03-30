@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Layout, Menu, Dropdown, Icon, Spin, Popconfirm } from "antd";
+import { Layout, Menu, Dropdown, Spin } from "antd";
 import { Navigate } from "react-router-dom";
 import { connect } from "react-redux";
 import { logout } from "../redux/actions/user";
@@ -11,7 +11,6 @@ import {
   MenuUnfoldOutlined,
   MenuFoldOutlined,
   UserOutlined,
-  VideoCameraOutlined,
   UploadOutlined,
   DownOutlined,
   LoadingOutlined,
@@ -67,7 +66,7 @@ const Landing = ({ logout, profile, isAuth }) => {
   const userMenu = (
     <Menu>
       <Menu.Item key={"1"}>
-        <a href="#">Profile</a>
+        <a href="#here">Profile</a>
       </Menu.Item>
 
       <Menu.Item key={"2"} danger onClick={() => logout()}>

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Button, Modal, Form, Input, Radio, Alert } from "antd";
+import React, { useState } from "react";
+import { Button, Modal, Form, Input, Alert } from "antd";
 import { connect } from "react-redux";
 import { createSwap, fetchSwaps } from "../../redux/actions/swaps";
 
